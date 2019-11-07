@@ -1,0 +1,43 @@
+html,
+body {
+    height: 100%;
+}
+body {
+    background: #005AA7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient( #FFFDE4, #005AA7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient( #FFFDE4, #005AA7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.title {
+    display: inline;
+    font-size: 4em;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    padding: 0 15px 16px 15px;
+    border: white 2px solid;
+    border-radius: 50%;
+}
+
+.center:hover .title {
+    display: none;
+}
+
+.subtitle {
+    display: none;
+    padding: 100px;
+    font-family: 'Poor Story', cursive;
+}
+
+.center:hover .subtitle {
+    display: inline;
+}
